@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+/* .body{
+    font-family:"Fredoka", sans-serif !important;
+
+  background:#013a63 !important;
+} */
+
+
+
+.card-style{
+    /* margin-top: 25%;
+    padding: 30px; */
+    
+    background: linear-gradient(135deg, #774936, #9c6852, #c89a80) !important;
+
+  /* Default background color */
+  padding: 30px;
+  border-radius: 8px;
+  margin-top: 25%;
+  margin-bottom: 25px;
+  color: black !important;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-family: "Fredoka", sans-serif !important;
+  font-size: 18px;
+
+}
+.card-style:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    /* Background color on hover */
+    transform: scale(1.02);
+    /* Slightly scale the card */
+}
+
+
+.sign-in{
+    background-color: #b07d62;
+   color: black;
+   padding-top: 5px!important;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 20px;
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+     cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 25px;
+    width:100%;
+  }
+  .sign-in:hover{
+    background: #774936 !important;
+  }
+
+
+
+.login-button {
+    background-color: #8a5a44;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+     border-radius: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 5px;
+    width:50%;
+   
+  }
+  
+  .login-button:hover {
+    background: #774936 !important;
+  }
+  .login-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .input-field{
+    background: linear-gradient(135deg, #9d6b53, #b7856f, #d9a48d) !important;
+    border: none !important;
+    color: rgb(224, 202, 202) !important;
+    width: 100% !important;
+  }
+  
+
+  .input-field:hover {
+    /* background-color: #AEAEAE!important; */
+    /* background-color: lightgray !important; */
+    transition: 0.5s;
+  }
+  .input-field::placeholder{
+    color: rgb(224, 202, 202) !important;
+  }

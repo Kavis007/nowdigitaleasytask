@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+body{
+    font-family:"Fredoka", sans-serif !important;
+
+    background: linear-gradient(135deg, #b58b6f, #d3a895, #edd1bd) !important;
+
+}
+
+
+.animated-todo {
+    position: relative; /* Needed for the animation to take effect */
+    animation: slideIn 1s ease-in-out forwards;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-100%); /* Start from off-screen on the left */
+      opacity: 0; /* Optional: start invisible */
+    }
+    100% {
+      transform: translateX(0); /* End at its original position */
+      opacity: 1; /* Optional: fully visible */
+    }
+}
+
+.login-but{
+    background-color: #b07d62;
+   color: black;
+   padding-top: 5px!important;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 20px;
+     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+     cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 25px;
+    width:100%;
+    position: relative; /* Needed for the animation to take effect */
+    animation: slideInRight 1s ease-in-out forwards;
+}
+
+
+@keyframes slideInRight {
+    0% {
+      transform: translateX(100%); /* Start from off-screen on the right */
+      opacity: 0; /* Optional: start invisible */
+    }
+    100% {
+      transform: translateX(0); /* End at its original position */
+      opacity: 1; /* Optional: fully visible */
+    }
+  }
+
+
+.login-but:hover{
+    background: #774936 !important;
+}
+
+.card-col{
+    background: linear-gradient(135deg, #774936, #9c6852, #c89a80) !important;
+
+    /* Default background color */
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px;
+    margin-bottom: 25px;
+    color:black !important;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    font-family:"Fredoka", sans-serif !important;
+    font-size: 18px;
+}
+
+.card-col:hover{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);  /* Background color on hover */
+  transform: scale(1.02); /* Slightly scale the card */
+}
+
+@media (max-width: 320px) {
+    .card-col {
+       
+     margin-top: 15%!important;
+    
+    }
+  }
+
+
+  .signup-but{
+    background-color: #8a5a44;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+     border-radius: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 5px;
+    width:50%;
+  }
+
+  .signup-but:hover{
+    background: #774936 !important;
+  }
+
+  .inputforsign{
+    background: linear-gradient(135deg, #9d6b53, #b7856f, #d9a48d) !important;
+    border: none !important;
+    color: rgb(224, 202, 202) !important;
+    width: 100% !important;
+  }
+
+  .inputforsign:hover{
+    transition: 0.5s;
+  }
+
+  .inputforsign::placeholder{
+    color: rgb(224, 202, 202) !important;
+  }
+
+  .inputfortodo{
+    margin-top: 20px;
+    background: linear-gradient(135deg, #9d6b53, #b7856f) !important;
+    border: none !important;
+    /* color: rgb(224, 202, 202) !important; */
+    color: white;
+    width: 20% !important;
+  }
+
+  .todo-submit{
+    background-color: #8a5a44;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+     border-radius: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 10px;
+    width:20%;
+  }
+
+
+ 
+ 
